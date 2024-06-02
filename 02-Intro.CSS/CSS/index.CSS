@@ -1,0 +1,16 @@
+
+/* para los estilos en el archivo:
+ selector
+  {propiedad: valor de la propiedad} */
+
+p {
+    /* 16px por default */
+        color: blue;
+        font-size: 25px;
+}
+
+
+
+
+
+
