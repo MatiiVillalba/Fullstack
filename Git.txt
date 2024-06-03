@@ -6,8 +6,21 @@
 
 3. Git add = agrega todos los datos al repositorio local
 
-  - Git add index.html= agregar el archivo al repositorio local
+  - Git add index.html= agregar el archivo al repositorio local, usando o agregando el nombre del archivo
+
+  - Git add . = agrega todo el directorio del donde estamos trabajando
 
   4. A= archivo agregado al repositorio local
 
   5. M= el archivo fue modificado, pero no guardado
+
+  6. Git commit= envalar el paquete de los archivos para enviarlo
+
+     -m = comentar o describir la tarea realizada
+
+     ej. git commit -m "saludos"
+
+  7. si tocamos algo, volvems a iniciar, menos el numero 1   
+
+  8.  git log= podemos ver todos los cambios que se hicieron
+  
