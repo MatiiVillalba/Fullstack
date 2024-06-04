@@ -22,5 +22,11 @@
 
   7. si tocamos algo, volvems a iniciar, menos el numero 1   
 
-  8.  git log= podemos ver todos los cambios que se hicieron
+  8.  git log= me muestra los commits hechos y quien los hizo
   
+  9. git status= consulta el estado de Git
+
+  10. git no guarda directorios vacios por default
+
+  11. git remote -v= me muestra donde estan guardados los codigos en remoto
+

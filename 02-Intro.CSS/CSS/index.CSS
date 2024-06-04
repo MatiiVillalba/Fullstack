@@ -9,8 +9,18 @@ p {
         font-size: 25px;
 }
 
+/* 1. Selector con ID, usarlo preferentemente 1 sola vez */
+#colorAzul{
+  color:blue;
+}
 
+/* 2. selector de clase; si lo podemos utilizar mas de una vez */
+.colorFondo{
+  background-color: orange;
+}
 
-
+.textoGrande{
+  font-size: 50px;
+}
 
 
