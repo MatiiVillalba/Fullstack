@@ -16,7 +16,7 @@ p {
 
 /* 2. selector de clase; si lo podemos utilizar mas de una vez */
 .colorFondo{
-  background-color: orange;
+  background-color: blue;
 }
 
 .textoGrande{
