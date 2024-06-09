@@ -5,22 +5,65 @@
 
 p {
     /* 16px por default */
-        color: blue;
+        background-color:beige;
         font-size: 25px;
+        font-family: ;
 }
 
 /* 1. Selector con ID, usarlo preferentemente 1 sola vez */
 #colorAzul{
-  color:blue;
+  color:black;
 }
 
 /* 2. selector de clase; si lo podemos utilizar mas de una vez */
 .colorFondo{
-  background-color: blue;
+  font-size: 45px;
+  color: black;
+ background-color: yellow;
 }
 
 .textoGrande{
   font-size: 50px;
+}
+
+.titulo{
+  text-align: center;
+  font-size: 60px;
+  color: #F79495;
+  height: 70px;
+  background-color: black;
+  /* tipografia del sistema operativo */
+  font-family: 'Times New Roman', Times, serif;
+}
+/* 1.regla para el uso de una tipografia descargada */
+@font-face{
+font-family: NEXTSTEP;
+src: url(../assets/Font/NEXTSTEP.ttf);
+}
+.folder-font{
+  font-family: NEXTSTEP;
+  font-size: 35px;
+}
+/* 3.link de la tipografia que usaremo */
+.stylesheet{
+  font-family: // <uniquifier>: Use a unique and descriptive class name
+  // <weight>: Use a value from 100 to 900
+  }
+
+  // <uniquifier>: Use a unique and descriptive class name
+  // <weight>: Use a value from 100 to 900
+  
+  .googlefont{
+   font-family: "Dancing Script", cursive;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+}
+  
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+  
+.googlefont{
+  font-family: 'https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap' ;
 }
 
 
