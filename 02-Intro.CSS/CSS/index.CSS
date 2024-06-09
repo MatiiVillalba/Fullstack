@@ -7,7 +7,7 @@ p {
     /* 16px por default */
         background-color:beige;
         font-size: 25px;
-        font-family: ;
+        font-family: cursive ;
 }
 
 /* 1. Selector con ID, usarlo preferentemente 1 sola vez */
@@ -45,14 +45,7 @@ src: url(../assets/Font/NEXTSTEP.ttf);
   font-size: 35px;
 }
 /* 3.link de la tipografia que usaremo */
-.stylesheet{
-  font-family: // <uniquifier>: Use a unique and descriptive class name
-  // <weight>: Use a value from 100 to 900
-  }
 
-  // <uniquifier>: Use a unique and descriptive class name
-  // <weight>: Use a value from 100 to 900
-  
   .googlefont{
    font-family: "Dancing Script", cursive;
    font-optical-sizing: auto;
@@ -60,10 +53,6 @@ src: url(../assets/Font/NEXTSTEP.ttf);
    font-style: normal;
 }
   
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-  
-.googlefont{
-  font-family: 'https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap' ;
-}
+
 
 
