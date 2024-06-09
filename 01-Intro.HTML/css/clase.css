@@ -1,9 +1,15 @@
 
 ol li{
+    font-size: 25px;
     color: brown;
 }
 
 p{
-    font-size: 80px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-family: cursive;
+}
+ul li{
+    color: red;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
