@@ -13,3 +13,14 @@ ul li{
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.fondo{
+    background-image: url(../assets/Imagenes/airplane-engines.svg);
+    background-size: cover;
+    width: 100px;
+    height: 200px;
+}
+
+.color{
+    background-color: beige;
+}

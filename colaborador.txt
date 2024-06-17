@@ -1,0 +1,19 @@
+
+
+Pasos para compartir un proyecto en github
+
+1. Un miembro del equipo crea un proyecto y un repo.
+
+2. Agrega colaboradores en:
+
+   - settings
+   -colaboradores
+   - add people con el imail del compañero/ usuario de github
+
+3. Realiza un git clone en la terminal... url del proyecto   
+
+4. Desarrollamos codigo.
+
+5. realizamos un git pull => verifica si hay cambios en el repo remoto y los descarga
+
+6. Realizo un git push origin master => url del repo
