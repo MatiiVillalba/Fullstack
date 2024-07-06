@@ -30,3 +30,8 @@
 
   11. git remote -v= me muestra donde estan guardados los codigos en remoto
 
+  12. creamos un repo en github
+
+  13. Agregamos la url del repo remoto al Git local git remote add origin https://elreporemoto.git/
+
+  14. Enviamos el repo con git push origin master
