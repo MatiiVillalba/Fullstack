@@ -60,4 +60,4 @@ console.log( nombre + apellido + provincia)
 console.error(nombre + apellido + provincia)
 console.warn(nombre + apellido + provincia);
 
-alert('soy un mensaje de alerta al cliente')
+/* alert('soy un mensaje de alerta al cliente') */
