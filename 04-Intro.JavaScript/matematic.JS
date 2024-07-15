@@ -29,3 +29,9 @@ console.log("el resultado de la resta es: " + resultado);
  resultado = numUNO % numDos
  console.log("el resultado del modulo es: " + resultado);
 
+//Ejemplo de lenguaje estatico
+//Java
+/* int edad = 20 */
+
+//typescrip
+/* edad: Number = 21; */

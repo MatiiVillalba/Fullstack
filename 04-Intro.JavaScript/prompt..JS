@@ -10,4 +10,4 @@
 
  let confirmacion = confirm('el numero que ingresaste es' + numeroUnoDelUsuario );
 
- console.log('la confirmacion de usuario es 'confirm);
+ console.log('la confirmacion de usuario es 'confirmacion);
