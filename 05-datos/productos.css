@@ -1,0 +1,30 @@
+body{
+    background-color: aqua;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    display: inline;
+    list-style-type: none;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+}
+
+main{
+    display: flex;
+    flex-direction: row; /* Elemento en fila por default*/
+    /*flex-direction: column; Elementos en columnas ordenados */
+    /*flex-direction: row-reverse; Elementos en fila pero en reversa*/
+    /*flex-direction: column-reverse; Elementos en columnas pero en reversa*/
+   /*  flex-wrap: nowrap; No hace un salto de linea cuando llega al final por default */
+    flex-wrap: wrap; /*Habilita el salto de linea cuando termina la ventana */
+  justify-content: center;
+  align-content: stretch;
+}
+div{
+    margin: 10px;
+}

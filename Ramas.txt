@@ -1,0 +1,20 @@
+1. listamos las ramas de git
+   git branch
+2. creamos una nueva rama en nuestro repo local
+   git branch ramas
+3. subimos la nueva rama a github, despues de commit normal
+   git push origin ramas
+4. fusionamos las ramas, siempre desde master
+   git merme ramas
+5. eliminamos rama local
+   git branch -D ramas
+6. eliminamos una rama remota con:
+   git push origin -d <nombre de la rama>
+
+
+
+
+
+
+
+
