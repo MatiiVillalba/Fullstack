@@ -1,3 +1,10 @@
+/* reseteo de CSS ==> QUITAR LOS ESTILOS POR DEFAULT */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: aqua;
 }
@@ -29,6 +36,7 @@ div{
 }
 
 nav{
+    background-color: beige;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
