@@ -1,0 +1,16 @@
+.nav {
+    background-color: $color2;
+    @include centar;
+ ul {
+     list-style:none;
+     li {
+         display: block;
+         a {
+             color: white;
+             &:hover{
+                 color: $color3;
+             }
+         }
+     }
+ }
+}

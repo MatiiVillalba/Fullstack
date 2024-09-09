@@ -1,0 +1,14 @@
+/* importamos reset */
+@import "reset";
+
+/* creamos variables con SASS */
+@import "variables";
+
+/* anidamos estilos dentro del css */
+@import "anidar";
+
+/* mixin: bloque de codigo reutilizables */
+@import "mixin";
+
+/* imprtamos body */
+@import "body";

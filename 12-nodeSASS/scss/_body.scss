@@ -1,0 +1,12 @@
+body {
+    background-color: $color;
+}
+
+h1 {
+    color: #f1eded;
+    font-family: $mitipografia;
+}
+
+div{
+    @include centar;
+}

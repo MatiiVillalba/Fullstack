@@ -1,0 +1,25 @@
+/* creamos variables con SASS */
+/* anidamos estilos dentro del css */
+.nav {
+  background-color: #f1eded; }
+  .nav ul {
+    list-style: none; }
+    .nav ul li {
+      display: block; }
+      .nav ul li a {
+        color: white; }
+        .nav ul li a:hover {
+          color: #121297; }
+
+body {
+  background-color: #333; }
+
+h1 {
+  color: #f1eded;
+  font-family: Arial, sans-serif; }
+
+/* mixin: bloque de codigo reutilizables */
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
