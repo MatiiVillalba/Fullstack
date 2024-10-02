@@ -1,0 +1,36 @@
+1. Instalamos las librerias de las rutas
+
+   npm i react-router-dom
+
+2. importamos el componente BrowerRouter en el index.js
+
+   import {BrowerRouter} from "react-router-dom";
+
+3. Envolvemos con el componente nuentra app principal
+
+   <BrowerRouter>
+    <react.StrchtMode>
+     <App />
+     </react.StrchtMode>
+   </BrowerRouter>
+
+4. Importamos dos componentes en App.js principal
+
+   import { Routes, Route } from 'react-router-dom';
+
+5. Configuramos el ruteo de mi app
+
+     <Routes>
+        <Route path='/' element={ <App /> } />
+        <Route path='/login' element= { <Login />} />
+        <Route path='/nosotros' element= { <Nosotros /> } />
+    </Routes>
+
+6. Utilizar el componente Link en vez de las anclas de html
+
+    import { Link } from "react-router-dom";
+
+
+    <Link to='/' className="navbar-brand">APP</Link>
+
+
